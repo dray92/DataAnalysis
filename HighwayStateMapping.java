@@ -14,8 +14,8 @@ import java.util.Set;
 
 public class HighwayStateMapping {
 
-	private static final String dataFile = "/Users/Debosmit/Desktop/highway.csv";
-	private static final String state2AbbrFile = "/Users/Debosmit/Desktop/states.csv";
+	private static final String dataFile = "/Users/Debosmit/Documents/Eclipse Workspaces/workspace/DataAnalysis/src/googleMaps/highway.csv";
+	private static final String state2AbbrFile = "/Users/Debosmit/Documents/Eclipse Workspaces/workspace/DataAnalysis/src/googleMaps/states.csv";
 	private static ArrayList<String> highways;
 	private static Map<String, ArrayList<String>> highway2State;
 	private static Map<String, ArrayList<String>> state2Highway;
