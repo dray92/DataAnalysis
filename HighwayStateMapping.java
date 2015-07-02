@@ -12,6 +12,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+
+// NEEDS WORK, I-90 not in WA
 public class HighwayStateMapping {
 
 	private static final String dataFile = "/Users/Debosmit/Documents/Eclipse Workspaces/workspace/DataAnalysis/src/googleMaps/highway.csv";

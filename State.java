@@ -10,10 +10,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+// uses Google Maps Geocode API
 public class State {
 
 	private static String key = "AIzaSyCJCShCf78cw1AT-SLURI8bQ0zNvGUZn1A";
-	private boolean PRINT_ON = true;
+	private boolean PRINT_ON = false;
 	private JSONObject jObject;
 	private Set<String> myStates;
 	private String state;
@@ -52,7 +53,7 @@ public class State {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println(url);
+		if(PRINT_ON ) System.out.println(url);
 		if(PRINT_ON ) System.out.println("START COORDINATES: "+ coordinates);
 		jsonParser(myUrl);
 	}
