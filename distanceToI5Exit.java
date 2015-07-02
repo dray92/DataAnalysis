@@ -21,8 +21,9 @@ class distanceToI5Exit {
 	private static String dest_coord = "47.972589,-122.190843";
 	private static String mode = "driving";
 	private static ArrayList<String> coordinates; // longitude, latitude
+
 	private static String csvFile = "/Users/Debosmit/Documents/Eclipse Workspaces/workspace/DataAnalysis/src/googleMaps/craigSeattle.csv";
-	
+
 	private static final boolean PRINT_ON = false;		// Set to true to turn on printing to console
 	
 	public static void main(String[] args) throws JSONException, IOException {
