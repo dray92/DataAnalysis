@@ -55,6 +55,7 @@ public class Proximity2PrimaryHighway {
 					+ key;
 		
 		String myUrl = getURL(url);
+		System.out.println(url);
 		if(PRINT_ON) System.out.println("START COORDINATES: "+ coordinate);
 		try {
 			jsonParser(myUrl);
